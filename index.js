@@ -10,7 +10,7 @@ var express = require('express'),
 var photo = function () {
     var self = this;
 
-    self.url  = "http://photography.nationalgeographic.com/photography/photo-of-the-day/";
+    self.url  = "http://www.nationalgeographic.com/photography/photo-of-the-day/";
     self.port = process.env.PORT || 3000;
 
 
